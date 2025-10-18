@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card - Stage 0</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <article data-testid="test-profile-card">
+      <figure>
+        <img
+          src="./IMG_8140.jpeg"
+          alt="User Avatar"
+          data-testid="test-user-avatar"
+        />
+      </figure>
+
+      <div class="card-details">
+        <header>
+          <h2 data-testid="test-user-name">Okefolahan Olamide Israel</h2>
+        </header>
+
+        <p data-testid="test-user-bio">
+          Passionate fullstack developer who loves building clean and
+          user-friendly web applications.
+        </p>
+
+        <p>
+          Current time (ms):
+          <span data-testid="test-user-time" id="user-time"></span>
+        </p>
+
+        <nav data-testid="test-user-social-links" aria-label="Social Links">
+          <a
+            href="https://x.com/MhideTech"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-testid="test-user-social-twitter"
+            >Twitter (X)</a
+          >
+          <a
+            href="https://github.com/MhideTech"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-testid="test-user-social-github"
+            >GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/olamide-okefolahan"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-testid="test-user-social-linkedin"
+            >LinkedIn</a
+          >
+        </nav>
+
+        <section aria-labelledby="hobbies-title">
+          <h3 id="hobbies-title">Hobbies</h3>
+          <ul data-testid="test-user-hobbies">
+            <li>Coding</li>
+            <li>Travelling</li>
+            <li>Videography</li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="dislikes-title">
+          <h3 id="dislikes-title">Dislikes</h3>
+          <ul data-testid="test-user-dislikes">
+            <li>Procrastination</li>
+            <li>Unclean code</li>
+            <li>Noisy environments</li>
+          </ul>
+        </section>
+      </div>
+    </article>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
