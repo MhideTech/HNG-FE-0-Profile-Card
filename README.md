@@ -3,7 +3,7 @@
 A simple, accessible, responsive profile card built with semantic HTML, CSS, and vanilla JavaScript.
 
 ## Live Demo
-👉 [View on Netlify](https://your-netlify-link.netlify.app)
+👉 [View on Vercel](https://hng-fe-0-profile-card.vercel.app/)
 
 ## Features
 - Semantic HTML (article, header, figure, section)
@@ -17,6 +17,6 @@ All elements include `data-testid` attributes as required for automated testing.
 
 ## Run Locally
 ```bash
-git clone https://github.com/yourusername/profile-card.git
+git clone https://github.com/MhideTech/HNG-FE-0-Profile-Card
 cd profile-card
 open index.html
