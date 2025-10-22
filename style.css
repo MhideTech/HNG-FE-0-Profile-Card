@@ -11,8 +11,25 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100vh;
   margin: 0;
+}
+
+header {
+  padding: 1rem;
+  background: #222;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-left: 30px;
+}
+
+header nav a {
+  color: #fff;
+  margin-right: 1rem;
+  text-decoration: none;
 }
 
 article[data-testid="test-profile-card"] {
@@ -45,7 +62,7 @@ img[data-testid="test-user-avatar"] {
   object-position: top;
 }
 
-header {
+hgroup {
   text-align: center;
   margin-top: 1rem;
 }
